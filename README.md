@@ -12,4 +12,18 @@ Create a new environment
 ```
 conda create -p venv python==3.7 -y
 ```
-This is being modified
+ or 
+
+Create a new environment
+
+```
+conda create --name  bostonhousepricing_venv python==3.7 -y
+```
+
+```
+conda activate bostonhousepricing_venv
+```
+To install the requirements
+```
+pip install -r requirements.txt
+```
